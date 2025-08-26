@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sudharshan R - Portfolio</title>
+    <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -15,7 +15,6 @@
     <script src="js/main.js"></script>
   </head>
   <body>
-
     <!-- Header -->
     <header>
       <div class="nav-bar">
@@ -26,7 +25,7 @@
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
+            <a href="#projects">Projects</a>
           </div>
         </div>
       </div>
@@ -34,8 +33,9 @@
     <section class="home flex-center" id="home">
       <div class="home-container">
         <div class="media-icons">
-          <a href="https://www.linkedin.com/in/sudharshan-r-a5b791218/"><i class="fa-brands fa-linkedin"></i></a
-          ><a href="https://github.com/5ud21"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sudharshan-r-a5b791218/" target="_blank"><i class="fa-brands fa-linkedin"></i></a
+          ><a href="https://github.com/5ud21" target="_blank"><i class="fa-brands fa-github"></i
+          ></a>
         </div>
         <div class="info">
           <h2>Hey there, Sudharshan here!</h2>
@@ -44,7 +44,7 @@
             I am an aspiring IT professional with an ever-lasting passion to
             create impactful software solutions.
           </p>
-          <a href="" class="btn"
+          <a href="#contact" class="btn"
             >Contact Me<i class="fa-solid fa-circle-arrow-right"></i
           ></a>
         </div>
@@ -78,7 +78,7 @@
                 hunger to write clean and meaningful code.
               </p>
             </div>
-            <a href="https://drive.google.com/file/d/1-aqrVmJXnwqmWMz8gHrOoJHJntsyCBP8/view?usp=sharing" class="btn"
+            <a href="" class="btn"
               >Download CV<i class="fa-solid fa-download"></i
             ></a>
           </div>
@@ -123,7 +123,7 @@
                 </li>
                 <li class="bar">
                   <span class="info"
-                    ><strong>HTML, CSS, JS, React</strong></span
+                    ><strong>HTML, CSS, JS, ReactJS, Streamlit</strong></span
                   >
                 </li>
                 <li class="bar">
@@ -151,8 +151,8 @@
       </div>
     </section>
 
-      <!-- Experience section -->
-      <section class="services section" id="experience">
+    <!-- Experience section -->
+    <section class="services section" id="experience">
       <div class="container flex-center">
         <h1 class="section-title-01">Experience</h1>
         <h2 class="section-title-02">Experience</h2>
@@ -215,6 +215,104 @@
                   </li>
                   <br />
                 </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <!-- Projects section -->
+<section class="services section" id="projects">
+  <div class="container flex-center">
+    <h1 class="section-title-01">Projects</h1>
+    <h2 class="section-title-02">Projects</h2>
+    <div class="content">
+      <ul class="project-list">
+        <li class="project-container">
+          <div class="project-card">
+            <img src="images/movie_recommender_system.png" alt="Project 3" class="project-img" />
+            <div class="project-body">
+              <h3>Movie Recommender System</h3>
+              <p>Built an end-to-end content based movie recommender system on the TMDB dataset using cosine similarity. Streamlit was used to build the responsive user interface and host the application.</p>
+            </div>
+          </div>
+        </li>
+         <li class="project-container">
+          <div class="project-card">
+            <img src="images/text_to_music.jpeg" alt="Project 3" class="project-img" />
+            <div class="project-body">
+              <h3>Text to Music Generation App</h3>
+              <p> Developed a Text to Music Generation App using Meta’s Audiocraft library. More
+ precisely, this application makes use of MusicGen-Small model, a 300M parameter controllable text-to-music model for music
+ generation. Streamlit was used to build the interactive web interface. This application runs smoothly on a CPU.</p>
+            </div>
+          </div>
+        </li>
+         <li class="project-container">
+          <div class="project-card">
+            <img src="images/video_summarizer.jpeg" alt="Project 3" class="project-img" />
+            <div class="project-body">
+              <h3>YouTube Video Summarization App</h3>
+              <p>Developed a YouTube Video Summarization app using open-source LLMs and
+ frameworks like Llama 2 (for language processing), Haystack (for efficient search and retrieval), Whisper (for audio
+ transcription) and Streamlit (for the dynamic web interface). This application runs smoothly on a CPU.</p>
+            </div>
+          </div>
+        </li>
+         <li class="project-container">
+          <div class="project-card">
+            <img src="images/gesture_control.jpeg" alt="Project 3" class="project-img" />
+            <div class="project-body">
+              <h3>Gesture controlled website hosting/dehosting</h3>
+              <p>Developed a Python script which utilizes Boto3 and OpenCV to detect
+ the hand gestures of the user and accordingly, host/dehost a website uploaded to an Amazon EC2 instance.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+     
+    <!-- Hobbies -->
+    <section class="services section" id="hobbies">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Hobbies</h1>
+        <h2 class="section-title-02">Hobbies</h2>
+        <div class="hobbies-div">
+          <ul class="service-list">
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fa-solid fa-bicycle"></i>
+                <h4>Cycling</h4>
+              </div>
+            </li>
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fa-solid fa-film"></i>
+                <h4>Movies</h4>
+              </div>
+            </li>
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fa-solid fa-music"></i>
+                <h4>Music</h4>
+              </div>
+            </li>
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fa-solid fa-microphone"></i>
+                <h4>Podcasts</h4>
+              </div>
+            </li>
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fa-solid fa-kitchen-set"></i>
+                <h4>Cooking</h4>
               </div>
             </li>
           </ul>
@@ -308,10 +406,12 @@
           <h3>Let's connect!</h3>
           <ul>
             <li>
-              <a href="https://www.linkedin.com/in/sudharshan-r-a5b791218/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/sudharshan-r-a5b791218/" target="_blank"><i class="fa-brands fa-linkedin"></i
+              ></a>
             </li>
             <li>
-              <a href="https://github.com/5ud21"><i class="fa-brands fa-github"></i></a>
+              <a href="https://github.com/5ud21" target="_blank"><i class="fa-brands fa-github"></i
+              ></a>
             </li>
           </ul>
         </div>
